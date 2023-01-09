@@ -1,6 +1,8 @@
 type Query {
-  # GOTO definition does not work on AScalar
+  # GOTO definition does not work on `AScalar`. Hover over `AScalar` to prove
+  # that `AScalar` is known by the LSP, despite not being able to navigate to
+  # it.
   thisIsAScalar: AScalar
-  # GOTO definition does work on Two.
+  # GOTO definition does work on `ATypeDef`
   thisIsATypeDef: ATypeDef
 }

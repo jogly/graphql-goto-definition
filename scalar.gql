@@ -1,1 +1,4 @@
+"""
+This scalar is definitely loaded by the LSP.
+"""
 scalar AScalar
