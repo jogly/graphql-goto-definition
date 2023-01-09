@@ -1,0 +1,6 @@
+type Query {
+  # GOTO definition does not work on AScalar
+  thisIsAScalar: AScalar
+  # GOTO definition does work on Two.
+  thisIsATypeDef: ATypeDef
+}

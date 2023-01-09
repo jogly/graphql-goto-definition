@@ -1,0 +1,6 @@
+scalar World
+
+type ATypeDef {
+  # GOTO definition on World does work.
+  hello: World
+}
